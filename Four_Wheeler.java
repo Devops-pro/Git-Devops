@@ -7,6 +7,6 @@ public class Four_Wheeler implements Vehicle{
 	}
 	public int getcost()
 	{
-		return 600000;
+		return 800000;
 	}
 }
