@@ -3,7 +3,7 @@ public class Three_Wheeler implements Vehicle{
 
 	public int getspeed()
 	{
-		return 80;	
+		return 90;	
 	}
 	public int getcost()
 	{
