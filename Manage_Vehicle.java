@@ -8,8 +8,8 @@ public class Manage_Vehicle {
 	Three_Wheeler thw = new Three_Wheeler();
 	System.out.println("This is Three wheeler cost" + " "+thw.getcost());
 	System.out.println("This is Three wheeler speed" + " "+thw.getspeed());
-	Four_Wheeler fw = new Four_Wheeler();
-	System.out.println("This is Four wheeler cost" + " "+fw.getcost());
-	System.out.println("This is Four wheeler speed" + " "+fw.getspeed());
+	Four_Wheeler frw = new Four_Wheeler();
+	System.out.println("This is Four wheeler cost" + " "+frw.getcost());
+	System.out.println("This is Four wheeler speed" + " "+frw.getspeed());
 }
 }
