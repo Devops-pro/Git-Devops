@@ -11,7 +11,9 @@ class Palindrome
 			for (int i=S1.length()-1;i>=0;i--){
 				S2=S2+S1.charAt(i);
 			}
-			if (S1==S2)
+			System.out.println(S2);
+			//if (S1==S2)
+				if (S2.equalsIgnoreCase(S1))
 			System.out.println("This is a Palindrome");
 			else
 				System.out.println("This is not a Palindrome");
